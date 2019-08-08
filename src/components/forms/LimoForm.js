@@ -26,10 +26,7 @@ const LimoForm = () => {
         <SelectForm name="Destination" options={destinationOptions} />
         <TextInput label="No of Passenger" s={12}></TextInput>
         <TextInput label="No of Luggage" s={12}></TextInput>
-
         <SelectForm name="Type of Vehicle" />
-        <TextInput label="Type of Vehicle" s={12}></TextInput>
-        
         <Col s={6}>
           <Button waves="light">
             Reset
